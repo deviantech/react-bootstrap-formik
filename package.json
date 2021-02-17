@@ -25,13 +25,12 @@
   "peerDependencies": {
     "bootstrap": ">=4",
     "formik": ">=2.1",
-    "react": ">=16",
-    "react-bootstrap": ">=1.2",
-    "yup": ">=0.29"
+    "react": ">=17",
+    "react-bootstrap": ">=1.4",
+    "yup": ">=0.32"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "tsdx lint"
     }
   },
   "devDependencies": {
@@ -48,8 +47,8 @@
     "@testing-library/jest-dom": "^5.11.2",
     "@testing-library/react": "^10.4.7",
     "@types/jest": "^26.0.8",
-    "@types/react": "^16.9.44",
-    "@types/react-dom": "^16.9.8",
+    "@types/react": "^17",
+    "@types/react-dom": "^17",
     "@types/yup": "^0.29.9",
     "@typescript-eslint/eslint-plugin": "^3.7.1",
     "@typescript-eslint/parser": "^3.7.1",
